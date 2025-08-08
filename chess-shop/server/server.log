@@ -1,0 +1,36 @@
+[dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Server listening on http://localhost:4000
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (/workspace/chess-shop/server/node_modules/body-parser/lib/types/json.js:77:19)
+    at /workspace/chess-shop/server/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/workspace/chess-shop/server/node_modules/raw-body/index.js:238:16)
+    at done (/workspace/chess-shop/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/workspace/chess-shop/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{email:admin@kambohandicrafts.test,password:admin123}',
+  type: 'entity.parse.failed'
+}
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (/workspace/chess-shop/server/node_modules/body-parser/lib/types/json.js:77:19)
+    at /workspace/chess-shop/server/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/workspace/chess-shop/server/node_modules/raw-body/index.js:238:16)
+    at done (/workspace/chess-shop/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/workspace/chess-shop/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{email:admin@kambohandicrafts.test,password:admin123}',
+  type: 'entity.parse.failed'
+}
